@@ -4,16 +4,21 @@
  */
 package Entity;
 
+import java.util.Random;
+
 /**
  * @author Kidver
  */
-public class Guante extends Dispositivo{
+public class Guante extends Dispositivo {
 
-    public Guante() {
+    Random rand = new Random();
+
+    public Guante(String nombre) {
+        super(nombre);
     }
 
-    
-
    
+
+    
 
 }//The end

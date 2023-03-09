@@ -25,10 +25,10 @@ public class Armadura {
         this.colorS = "gris";
         this.resistencia = 0;
         this.salud = 100;
-        this.guanteIzq = new Guante();
-        this.guanteDer = new Guante();
-        this.botaIzq = new Bota();
-        this.botaDer = new Bota();
+        this.guanteIzq = new Guante("Guante Izquierdo");
+        this.guanteDer = new Guante("Guante Derecho");
+        this.botaIzq = new Bota("Bota Izquierda");
+        this.botaDer = new Bota("Bota Derecha");
         this.casco = new Casco();
         this.generador = new Generador();
     }

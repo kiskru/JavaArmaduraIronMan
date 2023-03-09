@@ -11,9 +11,15 @@ package Entity;
 
 public class Bota extends Dispositivo{
 
-    public Bota() {
+    public Bota(String nombre) {
+        super(nombre);
     }
     
-   
+    
+    
+   @Override
+    public String toString() {
+        return "Bota consumo: " + consumo + " - " + estado;
+    }
 
 }//The end

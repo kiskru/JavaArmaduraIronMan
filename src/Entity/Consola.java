@@ -9,8 +9,11 @@ package Entity;
  */
 public class Consola extends Dispositivo{
 
-    public Consola() {
+    public Consola(String nombre) {
+        super(nombre);
     }
+
+    
     
 
 }//The end

@@ -9,7 +9,10 @@ package Entity;
  */
 public class Sintetizador extends Dispositivo {
 
-    public Sintetizador() {
+    public Sintetizador(String nombre) {
+        super(nombre);
     }
+
+    
 
 }//The end

@@ -15,8 +15,8 @@ public class Casco {
     private Sintetizador sintetizador;
 
     public Casco() {
-        this.consola = new Consola();
-        this.sintetizador = new Sintetizador();
+        this.consola = new Consola("Consola");
+        this.sintetizador = new Sintetizador("Sintetizador");
     }
 
     public Consola getConsola() {

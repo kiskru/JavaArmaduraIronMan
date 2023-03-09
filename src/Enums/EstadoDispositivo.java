@@ -9,5 +9,5 @@ package Enums;
  * @author Kidver
  */
 public enum EstadoDispositivo {
-    OPERATIVO, AVERIADO,
+    OPERATIVO, AVERIADO, DESTRUIDO
 }
